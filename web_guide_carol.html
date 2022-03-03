@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carol</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            width: 100%;
+            display: block;
+        }
+        .fixed_box{
+    width:51px;
+    position:fixed;
+    right:50px;
+    bottom:80px;
+    display: inline-block;
+    z-index: 999999;
+}
+.fixed_box2{
+    width:51px;
+    position:fixed;
+    right:50px;
+    bottom:20px;
+    display: inline-block;
+    z-index: 999999;
+}       
+
+    </style>
+</head>
+<body>
+    <div id="web">
+        <img src="images/web.jpg" alt="bx가이드1">
+    </div>
+    <div class="fixed_box">
+        <a href="#web"><img src="images/top3.png" alt="up"></a>
+    </div><!--fixed_box-->
+    <div class="fixed_box2">
+        <a href="index.html"><img src="images/home2.png" alt="home"></a>
+    </div><!--fixed_box-->
+    
+</body>
+</html>
